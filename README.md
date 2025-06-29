@@ -137,5 +137,5 @@ For production deployment, consider replacing JSON storage with a database (Post
 🌟 Author
 Nonppk
 ratchanonppk@gmail.com
-LinkedIn
-GitHub
+LinkedIn https://www.linkedin.com/in/ratchanonppk/
+GitHub https://github.com/Nonppk/sales-api
