@@ -1,21 +1,21 @@
-# 🚀 Sales API Project
+# Sales API Project
 
 A clean and simple **FastAPI** project that provides a RESTful API for managing sales records.  
 
 ---
 
-## 📌 Features
+## Features
 
-✅ FastAPI CRUD endpoints  
-✅ JSON file-based persistence (`sales_data.json`)  
-✅ Validation with Pydantic models  
-✅ Complete test coverage using Pytest  
-✅ Poetry for dependency management  
-✅ Python 3.9+  
+-FastAPI CRUD endpoints  
+-JSON file-based persistence (`sales_data.json`)  
+-Validation with Pydantic models  
+-Complete test coverage using Pytest  
+-Poetry for dependency management  
+-Python 3.9+  
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ├── src/
 │ └── create_api/
@@ -31,14 +31,14 @@ A clean and simple **FastAPI** project that provides a RESTful API for managing 
 
 ---
 
-## ⚙️ Requirements
+## Requirements
 
 - Python >= 3.9
 - Poetry
 
 ---
 
-## 🚀 Installation
+## Installation
 
 Clone this repository:
 
@@ -50,7 +50,7 @@ Install dependencies:
 
 poetry install
 
-▶️ Running the API
+# Running the API
 Start the FastAPI server:
 
 poetry run uvicorn src.create_api.sales_api:app --reload
@@ -59,14 +59,14 @@ API will be available at:
 
 http://127.0.0.1:8000
 
-🧪 Running Tests
+# Running Tests
 Execute all test cases:
 
 poetry run pytest
 
-📖 API Endpoints
+# API Endpoints
 
-➕ Add a sale
+# Add a sale
 POST /sales
 
 Request body:
@@ -104,13 +104,13 @@ Request body (array):
   }
 ]
 
-📄 Get all sales
+# Get all sales
 GET /sales
 
-🔍 Get sale by ID
+# Get sale by ID
 GET /sales/{product_id}
 
-✏️ Update sale
+# Update sale
 PUT /sales/{product_id}
 
 Request body:
@@ -122,10 +122,10 @@ Request body:
   "price": 399.0
 }
 
-❌ Delete sale
+# Delete sale
 DELETE /sales/{product_id}
 
-🧑‍💻 Development Notes
+# Development Notes
 The project uses Poetry for dependency management.
 
 Tests cover all endpoints.
@@ -134,7 +134,7 @@ Sales data persists to sales_data.json in the same directory.
 
 For production deployment, consider replacing JSON storage with a database (PostgreSQL, MongoDB, etc.).
 
-🌟 Author
+# Author
 Nonppk
 ratchanonppk@gmail.com
 LinkedIn https://www.linkedin.com/in/ratchanonppk/

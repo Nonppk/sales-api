@@ -1,19 +1,4 @@
-# Bytecode
 __pycache__/
 *.py[cod]
-
-# Virtualenv
 .venv/
-
-# Test cache
 .pytest_cache/
-
-# OS
-.DS_Store
-
-# IDE
-.vscode/
-.idea/
-
-# Secrets
-.env
